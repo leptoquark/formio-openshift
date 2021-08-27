@@ -6,10 +6,10 @@
   "allowedOrigins": ["*"],
   "domain": "http://localhost:3001",
   "basePath": "",
-  "mongo": "mongodb://localhost:27017/formioapp",
+  "mongo": "mongodb://10.125.6.198:27017/formio",
   "mongoConfig": "",
   "mongoCA": "",
-  "mongoSecret": "--- change me now ---",
+  "mongoSecret": "formio",
   "reservedForms": [
     "submission",
     "exists",
