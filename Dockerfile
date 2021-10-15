@@ -3,5 +3,5 @@ WORKDIR /app
 
 COPY . .
 
-CMD [ "npm", "install" ]
+RUN "npm", "install"
 CMD [ "npm", "start" ]
